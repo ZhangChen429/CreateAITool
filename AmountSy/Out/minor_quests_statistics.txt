@@ -1,0 +1,212 @@
+Side Quests 文件夹统计报告
+生成时间: 2025-11-19 20:04:20
+统计根目录: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\minor_quests
+========================================
+
+文件夹: mq000
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\minor_quests\mq000
+  QuestPhase 文件数: 5
+  SceneSolution 文件数: 10
+----------------------------------------
+文件夹: mq001
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\minor_quests\mq001
+  QuestPhase 文件数: 9
+  SceneSolution 文件数: 14
+----------------------------------------
+文件夹: mq002
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\minor_quests\mq002
+  QuestPhase 文件数: 4
+  SceneSolution 文件数: 13
+----------------------------------------
+文件夹: mq003
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\minor_quests\mq003
+  QuestPhase 文件数: 5
+  SceneSolution 文件数: 9
+----------------------------------------
+文件夹: mq005
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\minor_quests\mq005
+  QuestPhase 文件数: 2
+  SceneSolution 文件数: 2
+----------------------------------------
+文件夹: mq006
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\minor_quests\mq006
+  QuestPhase 文件数: 3
+  SceneSolution 文件数: 8
+----------------------------------------
+文件夹: mq007
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\minor_quests\mq007
+  QuestPhase 文件数: 3
+  SceneSolution 文件数: 11
+----------------------------------------
+文件夹: mq008
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\minor_quests\mq008
+  QuestPhase 文件数: 5
+  SceneSolution 文件数: 8
+----------------------------------------
+文件夹: mq009
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\minor_quests\mq009
+  QuestPhase 文件数: 1
+  SceneSolution 文件数: 8
+----------------------------------------
+文件夹: mq010
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\minor_quests\mq010
+  QuestPhase 文件数: 7
+  SceneSolution 文件数: 17
+----------------------------------------
+文件夹: mq011
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\minor_quests\mq011
+  QuestPhase 文件数: 1
+  SceneSolution 文件数: 2
+----------------------------------------
+文件夹: mq012
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\minor_quests\mq012
+  QuestPhase 文件数: 1
+  SceneSolution 文件数: 3
+----------------------------------------
+文件夹: mq013
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\minor_quests\mq013
+  QuestPhase 文件数: 1
+  SceneSolution 文件数: 3
+----------------------------------------
+文件夹: mq014
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\minor_quests\mq014
+  QuestPhase 文件数: 2
+  SceneSolution 文件数: 24
+----------------------------------------
+文件夹: mq015
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\minor_quests\mq015
+  QuestPhase 文件数: 6
+  SceneSolution 文件数: 13
+----------------------------------------
+文件夹: mq016
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\minor_quests\mq016
+  QuestPhase 文件数: 4
+  SceneSolution 文件数: 9
+----------------------------------------
+文件夹: mq017
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\minor_quests\mq017
+  QuestPhase 文件数: 6
+  SceneSolution 文件数: 10
+----------------------------------------
+文件夹: mq018
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\minor_quests\mq018
+  QuestPhase 文件数: 6
+  SceneSolution 文件数: 15
+----------------------------------------
+文件夹: mq019
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\minor_quests\mq019
+  QuestPhase 文件数: 6
+  SceneSolution 文件数: 15
+----------------------------------------
+文件夹: mq021
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\minor_quests\mq021
+  QuestPhase 文件数: 5
+  SceneSolution 文件数: 8
+----------------------------------------
+文件夹: mq022
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\minor_quests\mq022
+  QuestPhase 文件数: 3
+  SceneSolution 文件数: 4
+----------------------------------------
+文件夹: mq023
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\minor_quests\mq023
+  QuestPhase 文件数: 4
+  SceneSolution 文件数: 8
+----------------------------------------
+文件夹: mq024
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\minor_quests\mq024
+  QuestPhase 文件数: 6
+  SceneSolution 文件数: 7
+----------------------------------------
+文件夹: mq025
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\minor_quests\mq025
+  QuestPhase 文件数: 9
+  SceneSolution 文件数: 23
+----------------------------------------
+文件夹: mq026
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\minor_quests\mq026
+  QuestPhase 文件数: 6
+  SceneSolution 文件数: 15
+----------------------------------------
+文件夹: mq027
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\minor_quests\mq027
+  QuestPhase 文件数: 4
+  SceneSolution 文件数: 2
+----------------------------------------
+文件夹: mq028
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\minor_quests\mq028
+  QuestPhase 文件数: 5
+  SceneSolution 文件数: 16
+----------------------------------------
+文件夹: mq029
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\minor_quests\mq029
+  QuestPhase 文件数: 6
+  SceneSolution 文件数: 8
+----------------------------------------
+文件夹: mq030
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\minor_quests\mq030
+  QuestPhase 文件数: 3
+  SceneSolution 文件数: 8
+----------------------------------------
+文件夹: mq032
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\minor_quests\mq032
+  QuestPhase 文件数: 5
+  SceneSolution 文件数: 8
+----------------------------------------
+文件夹: mq033
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\minor_quests\mq033
+  QuestPhase 文件数: 1
+  SceneSolution 文件数: 8
+----------------------------------------
+文件夹: mq034
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\minor_quests\mq034
+  QuestPhase 文件数: 4
+  SceneSolution 文件数: 4
+----------------------------------------
+文件夹: mq035
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\minor_quests\mq035
+  QuestPhase 文件数: 6
+  SceneSolution 文件数: 6
+----------------------------------------
+文件夹: mq036
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\minor_quests\mq036
+  QuestPhase 文件数: 5
+  SceneSolution 文件数: 8
+----------------------------------------
+文件夹: mq037
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\minor_quests\mq037
+  QuestPhase 文件数: 1
+  SceneSolution 文件数: 5
+----------------------------------------
+文件夹: mq038
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\minor_quests\mq038
+  QuestPhase 文件数: 5
+  SceneSolution 文件数: 8
+----------------------------------------
+文件夹: mq040
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\minor_quests\mq040
+  QuestPhase 文件数: 5
+  SceneSolution 文件数: 10
+----------------------------------------
+文件夹: mq041
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\minor_quests\mq041
+  QuestPhase 文件数: 4
+  SceneSolution 文件数: 7
+----------------------------------------
+文件夹: mq042
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\minor_quests\mq042
+  QuestPhase 文件数: 3
+  SceneSolution 文件数: 7
+----------------------------------------
+文件夹: mq044
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\minor_quests\mq044
+  QuestPhase 文件数: 2
+  SceneSolution 文件数: 2
+----------------------------------------
+
+========================================
+总计
+========================================
+总文件夹数: 40
+总 QuestPhase 文件数: 169
+总 SceneSolution 文件数: 366

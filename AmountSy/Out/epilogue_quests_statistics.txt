@@ -1,0 +1,37 @@
+Side Quests 文件夹统计报告
+生成时间: 2025-11-20 15:37:33
+统计根目录: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\main_quests\epilogue
+========================================
+
+文件夹: q200
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\main_quests\epilogue\q200
+  QuestPhase 文件数: 0
+  SceneSolution 文件数: 0
+----------------------------------------
+文件夹: q201
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\main_quests\epilogue\q201
+  QuestPhase 文件数: 1
+  SceneSolution 文件数: 25
+----------------------------------------
+文件夹: q202
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\main_quests\epilogue\q202
+  QuestPhase 文件数: 8
+  SceneSolution 文件数: 16
+----------------------------------------
+文件夹: q203
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\main_quests\epilogue\q203
+  QuestPhase 文件数: 6
+  SceneSolution 文件数: 27
+----------------------------------------
+文件夹: q204
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\main_quests\epilogue\q204
+  QuestPhase 文件数: 10
+  SceneSolution 文件数: 26
+----------------------------------------
+
+========================================
+总计
+========================================
+总文件夹数: 5
+总 QuestPhase 文件数: 25
+总 SceneSolution 文件数: 94

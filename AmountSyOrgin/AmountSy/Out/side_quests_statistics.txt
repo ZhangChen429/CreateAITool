@@ -1,0 +1,102 @@
+Side Quests 文件夹统计报告
+生成时间: 2025-11-19 20:03:06
+统计根目录: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\side_quests
+========================================
+
+文件夹: sq004
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\side_quests\sq004
+  QuestPhase 文件数: 15
+  SceneSolution 文件数: 31
+----------------------------------------
+文件夹: sq006
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\side_quests\sq006
+  QuestPhase 文件数: 13
+  SceneSolution 文件数: 25
+----------------------------------------
+文件夹: sq009
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\side_quests\sq009
+  QuestPhase 文件数: 0
+  SceneSolution 文件数: 0
+----------------------------------------
+文件夹: sq011
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\side_quests\sq011
+  QuestPhase 文件数: 13
+  SceneSolution 文件数: 28
+----------------------------------------
+文件夹: sq012
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\side_quests\sq012
+  QuestPhase 文件数: 19
+  SceneSolution 文件数: 33
+----------------------------------------
+文件夹: sq017
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\side_quests\sq017
+  QuestPhase 文件数: 16
+  SceneSolution 文件数: 37
+----------------------------------------
+文件夹: sq018
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\side_quests\sq018
+  QuestPhase 文件数: 8
+  SceneSolution 文件数: 29
+----------------------------------------
+文件夹: sq021
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\side_quests\sq021
+  QuestPhase 文件数: 20
+  SceneSolution 文件数: 37
+----------------------------------------
+文件夹: sq023
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\side_quests\sq023
+  QuestPhase 文件数: 16
+  SceneSolution 文件数: 26
+----------------------------------------
+文件夹: sq024
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\side_quests\sq024
+  QuestPhase 文件数: 17
+  SceneSolution 文件数: 29
+----------------------------------------
+文件夹: sq025
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\side_quests\sq025
+  QuestPhase 文件数: 15
+  SceneSolution 文件数: 23
+----------------------------------------
+文件夹: sq026
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\side_quests\sq026
+  QuestPhase 文件数: 27
+  SceneSolution 文件数: 40
+----------------------------------------
+文件夹: sq027
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\side_quests\sq027
+  QuestPhase 文件数: 29
+  SceneSolution 文件数: 68
+----------------------------------------
+文件夹: sq028
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\side_quests\sq028
+  QuestPhase 文件数: 10
+  SceneSolution 文件数: 21
+----------------------------------------
+文件夹: sq029
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\side_quests\sq029
+  QuestPhase 文件数: 5
+  SceneSolution 文件数: 24
+----------------------------------------
+文件夹: sq030
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\side_quests\sq030
+  QuestPhase 文件数: 19
+  SceneSolution 文件数: 25
+----------------------------------------
+文件夹: sq031
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\side_quests\sq031
+  QuestPhase 文件数: 18
+  SceneSolution 文件数: 42
+----------------------------------------
+文件夹: sq032
+  路径: D:\AppSoft\Sy2077\2077\2077\CDPR2077\r6\depot\base\quest\side_quests\sq032
+  QuestPhase 文件数: 8
+  SceneSolution 文件数: 17
+----------------------------------------
+
+========================================
+总计
+========================================
+总文件夹数: 18
+总 QuestPhase 文件数: 268
+总 SceneSolution 文件数: 535
