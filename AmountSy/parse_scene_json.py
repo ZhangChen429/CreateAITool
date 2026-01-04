@@ -192,16 +192,74 @@ def main():
 
     # 可选：保存为单个Excel文件的多个工作表
     try:
+        from openpyxl.styles import Font, PatternFill, Alignment
+        from openpyxl.utils import get_column_letter
+
         excel_file = output_dir / 'scene_analysis.xlsx'
         print(f"\n正在保存Excel文件: {excel_file}")
         with pd.ExcelWriter(excel_file, engine='openpyxl') as writer:
-            df_summary.to_excel(writer, sheet_name='场景汇总', index=False)
-            df_nodes.to_excel(writer, sheet_name='节点类型', index=False)
-            df_workspots.to_excel(writer, sheet_name='工作点', index=False)
-            df_animations.to_excel(writer, sheet_name='动画', index=False)
-            df_interruptions.to_excel(writer, sheet_name='中断场景', index=False)
-            df_tags.to_excel(writer, sheet_name='事件标签', index=False)
-        print(f"  Excel文件保存成功!")
+            # 写入各个工作表
+            sheets_data = [
+                (df_summary, '场景汇总'),
+                (df_nodes, '节点类型'),
+                (df_workspots, '工作点'),
+                (df_animations, '动画'),
+                (df_interruptions, '中断场景'),
+                (df_tags, '事件标签')
+            ]
+
+            for df, sheet_name in sheets_data:
+                df.to_excel(writer, sheet_name=sheet_name, index=False)
+
+                # 获取工作表对象
+                worksheet = writer.sheets[sheet_name]
+
+                # 设置表头样式
+                header_font = Font(bold=True, color='FFFFFF', size=11)
+                header_fill = PatternFill(start_color='4472C4', end_color='4472C4', fill_type='solid')
+                header_alignment = Alignment(horizontal='center', vertical='center')
+
+                # 应用表头样式
+                for cell in worksheet[1]:
+                    cell.font = header_font
+                    cell.fill = header_fill
+                    cell.alignment = header_alignment
+
+                # 设置行高
+                worksheet.row_dimensions[1].height = 25  # 表头行高
+                for row in range(2, worksheet.max_row + 1):
+                    worksheet.row_dimensions[row].height = 20  # 数据行高
+
+                # 自动调整列宽
+                for column in worksheet.columns:
+                    max_length = 0
+                    column_letter = get_column_letter(column[0].column)
+
+                    for cell in column:
+                        try:
+                            if cell.value:
+                                cell_length = len(str(cell.value))
+                                if cell_length > max_length:
+                                    max_length = cell_length
+                        except:
+                            pass
+
+                    # 设置列宽，最小12，最大60
+                    adjusted_width = min(max(max_length + 2, 12), 60)
+                    worksheet.column_dimensions[column_letter].width = adjusted_width
+
+                # 冻结首行
+                worksheet.freeze_panes = 'A2'
+
+                # 添加自动筛选
+                worksheet.auto_filter.ref = worksheet.dimensions
+
+                # 设置数据单元格对齐方式
+                for row in worksheet.iter_rows(min_row=2, max_row=worksheet.max_row):
+                    for cell in row:
+                        cell.alignment = Alignment(vertical='center', wrap_text=False)
+
+        print(f"  Excel文件保存成功! (已优化格式)")
     except ImportError:
         print("  提示: 需要安装openpyxl才能保存Excel文件")
         print("  运行: pip install openpyxl")

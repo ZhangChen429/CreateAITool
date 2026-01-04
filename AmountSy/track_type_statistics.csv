@@ -1,0 +1,14 @@
+﻿轨道类型,常见轨道名称,不同名称数
+1,dialog lines,1
+2,"Player, bartender, guard_01, guard_02, guard_street_01, guard_street_02, hanako, johnny, waitress",9
+3,idle,1
+4,"animation, animation (1)",2
+5,"facial, facial (1), facial (2)",3
+6,lookAt,1
+8,"logic, logic (1)",2
+9,q115_johnny_hand,1
+10,animation,1
+11,placement,1
+12,logic,1
+14,SFX,1
+15,"VFX, VFX (1)",2
