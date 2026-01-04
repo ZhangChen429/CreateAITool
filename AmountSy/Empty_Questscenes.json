@@ -1,0 +1,553 @@
+{
+    "scene_solutions": {
+        "base\\quest\\testgym\\meethanako.scenesolution": {
+            "interruption_scenarios": [
+                {
+                    "type": "scnbInterruptionScenario"
+                }
+            ],
+            "event_execution_tags": [
+                {
+                    "type": "scnbEventExecutionTag"
+                }
+            ],
+            "scene_graph_nodes": {
+                "node_type_count": {
+                    "scnbXorNodeDescriptor": 6,
+                    "scnbHubNodeDescriptor": 21,
+                    "scnbChoiceSectionNodeDescriptor": 14,
+                    "scnbRandomizerNodeDescriptor": 6,
+                    "scnbStartNodeDescriptor": 10,
+                    "scnbCutControlNodeDescriptor": 8,
+                    "toolsSectionNodeDescriptor": 143,
+                    "scnbEndNodeDescriptor": 5,
+                    "toolsQuestNodeDescriptor": 239,
+                    "scnbAndNodeDescriptor": 14
+                },
+                "total_nodes": 466
+            },
+            "actors_count": 9,
+            "props_count": 4,
+            "reference_points_count": 2,
+            "rid_animations": {},
+            "workspots": {
+                "external_workspots": [
+                    {
+                        "path": "base\\workspots\\common\\ground\\generic__stand_ground__guard__01.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\common\\ground\\bodyguard__stand_ground__2h_front__01.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\common\\ground\\bodyguard__stand_ground__2h_back__01.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\common\\ground\\big__stand__stand_around__01.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\gym\\ground\\big__stand__cheer__03.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\common\\ground\\generic__stand_ground__delamain__01.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\main_characters\\hanako\\ground\\hanako__stand_ground_piano__play__01.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\quest\\main_quests\\part1\\q103\\q103_14_maelstroms\\ssg01__stand__stand_around__01.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\quest\\main_quests\\part1\\q115\\q115_00b_hanako\\q115__hanako__stand_hand__holding__01.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\main_characters\\johnny\\johnny__sit_chair_lean_back__sit_around__01.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\main_characters\\hanako\\ground\\hanako__stand_ground__stand_around__01.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\quest\\side_quests\\sq031\\sq031_05_grave\\sq_031__johnny__stand_ground__stand_around__01.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\main_characters\\johnny\\johnny__stand_ground__stand_around__01.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\quest\\main_quests\\part1\\q115\\q115_00b_hanako\\q115__hanako__sit_barstool_bar__sit_around__01.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\main_characters\\johnny\\bar\\johnny__stand_bar_lean_front__idle__01.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\main_characters\\johnny\\ground\\johnny__walk_ground_cigarette__aggressive__01.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\player\\bar\\player__sit_barstool_bar_lean_left__sit_around__02.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\common\\bar_and_barstool\\generic__sit_barstool_bar_lean_left__sit_around__01.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\common\\ground\\bodyguard__stand_ground_pistol__alerted__01.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\quest\\main_quests\\part1\\q115\\q115_00b_hanako\\q115__player__sit_barstool_lean_left__sit_around__01.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\main_characters\\johnny\\johnny__stand_ground_cigarette__idle__01.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\common\\bar\\generic__stand_bar_lean_front__stand_around__04.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\common\\ground\\generic__stand_ground__scared__01.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\main_characters\\judy\\judy__stand_ground__stand_around__03.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\bar\\bar_and_barstool\\generic__sit_barstool_bar__sit_around__01.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\common\\chair\\generic__sit_chair_lean_front__sit_around__01.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\archetype\\corpo\\corpo__stand_ground_phone__talk_nervous__01.workspot"
+                    }
+                ],
+                "internal_workspots": []
+            },
+            "animset_animations": {
+                "stand__2h_front__01__conversation_step__01": 1,
+                "stand__2h_front__01__stop__neutral__01": 1,
+                "None": 127,
+                "stand__2h_front__01__describe_front__01": 1,
+                "glance__looking_down_thinking__01": 7,
+                "glance__looking_left__female__01": 2,
+                "hanako__sit_barstool_bar_lean90__rh_on_bar_legs_crossed__01__nervous_tap__01": 2,
+                "johnny__stand__lh_pocket__01__look_left__01": 1,
+                "hanako__sit_chair_lean0__play_piano__01": 1,
+                "other_gesture__asymmetrical_smile__male__01": 1,
+                "stand__2h_front__01__to__walk0__turn225__01": 1,
+                "hanako__stand__2h_front__01__sing__04": 1,
+                "sit_barstool_bar_lean270__lh_on_bar__wipe_nose__01": 4,
+                "no__firm__female__01": 3,
+                "johnny__stand_bar_lean0__2h_on_bar__01__talk__01": 2,
+                "hanako__sit_barstool_bar_lean90__rh_on_bar_legs_crossed__01__flick__01": 1,
+                "stand__2h_on_sides__01__to__sit_barstool_bar_lean270__lh_on_bar__02__turn45__01": 1,
+                "additive__closed_eyes__01": 3,
+                "walk_0__to__stand__2h_front__01__turn270__01": 1,
+                "stand__2h_front__01": 5,
+                "johnny__stand__lh_cigarette__aggressive__01__conversation_step__01": 1,
+                "stand__2h_back__01__to__stand__2h_back__01__turn45__01": 2,
+                "sit_barstool_bar_lean270__lh_on_bar__02": 2,
+                "other_gesture__smile__female__01": 1,
+                "hanako__stand__2h_front__01__take_you__01": 1,
+                "hanako__sit_barstool_bar_lean90__rh_on_bar_legs_crossed__01__stop__01": 1,
+                "stand__2h_back__01__to__stand__2h_back__01__turn315__01": 1,
+                "q115__hanako_goes_to_bar__02": 2,
+                "add__stand_table_lean0__2h_on_table__01": 1,
+                "johnny__stand__lh_cigarette__aggressive__01": 5,
+                "stand__2h_front__01__to__walk_0__01": 2,
+                "hanako__stand__2h_front__01__rub_hands__01": 1,
+                "phrasal_gesture__what__female__01": 2,
+                "q110__walk_0__to__johnny__stand__lh_pocket__01__turn0__01": 1,
+                "emotional_gesture__contempt__male__01": 1,
+                "johnny__sit_chair_lean180__arms_legs_crossed__01__laugh__01": 2,
+                "stand__2h_front__01__to__stand__2h_back__01__turn0__01": 2,
+                "stand__2h_on_sides__01__to__stand__2h_front__01__turn0__01": 2,
+                "q115_hanako__sit_barstool_bar_lean90__rh_on_bar_legs_crossed__01__sip_drink__01": 1,
+                "glance__left_45_procesing_info__01": 2,
+                "sit_barstool_bar_lean270__lh_on_bar__01__to__sit_barstool_bar_lean270__lh_on_bar__wipe_nose__01__turn0__01": 5,
+                "q115__hanako_goes_to_bar__03": 1,
+                "stand__2h_front__01__to__walk_0__turn180l__01": 1,
+                "johnny__stand_bar_lean0__2h_on_bar__01__listening__01": 1,
+                "johnny__sit_chair_lean180__arms_legs_crossed__01__lean_forward__01": 1,
+                "stand__2h_back__01__to__step_front__01__turn0__01": 1,
+                "stand__2h_front__01__two_step_left__01": 1,
+                "phrasal_gesture__what_do_you_want__female__02": 1,
+                "sit_chair_lean0__2h_elbow_on_knees__01": 1,
+                "walk_0__to__stand__arms_crossed_front__01__turn270__01": 1,
+                "stand__rh_gun_ready__01__to__stand__2h_front__01": 2,
+                "johnny__sit_chair_lean180__arms_legs_crossed__01": 1,
+                "emotional_gesture__annoyed__male__01": 1,
+                "fpp_idle_stand": 55,
+                "stand__2h_back__01": 4,
+                "yes__firm__female__01": 4,
+                "glance__look_around__01": 3,
+                "yes__subtle__female__01": 1,
+                "hanako__sit_barstool_bar_lean90__rh_on_bar_legs_crossed__01": 8,
+                "stand_table_lean0__2h_on_table__01": 1,
+                "sit_barstool_bar_lean270__lh_on_bar__01": 1,
+                "johnny__stand_bar_lean0__2h_on_bar__01": 6,
+                "johnny__stand__lh_pocket__01": 2,
+                "hanako__sit_barstool_bar_lean90__rh_on_bar_legs_crossed__01__talk__07": 3,
+                "emotional_gesture__annoyed__male__02": 1,
+                "q115__hanako_goes_to_bar__01": 2,
+                "stand__2h_back__01__describe_left__01": 1,
+                "hanako__stand__2h_front__01__to__kneel_lean0__lh_on_head__01__turn0__01": 1,
+                "johnny__stand_bar_lean0__2h_on_bar__01__shuffle__05": 1,
+                "phrasal_gesture__maybe__female__01": 1,
+                "glance__looking_down__female__01": 9,
+                "sit_chair_lean0__2h_elbow_on_knees__01__to__johnny__sit_chair_lean180__arms_legs_crossed__01__turn0__01": 1,
+                "walk_0__to__stand__2h_front__01__turn0__01": 1,
+                "stand__2h_front__01__nod__respectful__02": 1,
+                "stand__2h_back__01__delamain__01": 1,
+                "bouncer__walk_0__to__stand__2h_back__01__turn90__01": 1,
+                "other_gesture__false_smile__female__01": 1,
+                "stand_bar_lean0__2h_on_bar__01": 1,
+                "sit_barstool_bar_lean270__lh_on_bar__wipe_nose__01__to__sit_barstool_bar_lean270__lh_on_bar__01__turn0__01": 1,
+                "johnny__stand_bar_lean0__2h_on_bar__01__to__walk_0__turn45__01": 1,
+                "hanako__sit_chair_lean0__play_piano__01__to__hanako__stand__2h_front__01": 1,
+                "emotional_gesture__disappointed__female__01": 1,
+                "hanako__sit_barstool_bar_lean90__rh_on_bar_legs_crossed__01__gesture__02": 1,
+                "hanako__stand__2h_front__01__talk__02": 1,
+                "idle_stand__01__cough__01": 1,
+                "sit_barstool_bar_lean90__rh_on_bar_legs_crossed__01": 1,
+                "yes__approval__male__01": 1,
+                "stand__2h_back__01__shuffle__04": 1,
+                "sit_barstool_bar_lean270__lh_on_bar__01__spill_drink__02": 1,
+                "hanako__stand__2h_front__01__sing__01": 1,
+                "johnny__sit_chair_lean180__arms_legs_crossed__01__facepalm__01": 1,
+                "sit_barstool_bar_lean270__lh_on_bar__02__to__stand__2h_on_sides__01__turn90__01": 1,
+                "johnny__stand__lh_cigarette__aggressive__01__puff__06": 1,
+                "hanako__stand__2h_front__01__talk__03": 3,
+                "walk_0__to__hanako__stand__2h_front__01__turn0__01": 1,
+                "hanako__sit_barstool_bar_lean90__rh_on_bar_legs_crossed__01__talk__08": 1,
+                "glance__right_45_procesing_info__01": 1,
+                "walk_0__to__stand__2h_back__01__turn90__01": 1,
+                "hanako__stand__2h_front__01__shuffle__02": 1,
+                "johnny__sit_chair_lean180__arms_legs_crossed__01__deep_breath__01": 2,
+                "stand__2h_back__01__to__walk_0__turn0__01": 2,
+                "stand__2h_back__01__to__walk_0__turn270__01": 2,
+                "idle_gesture_cm__smile_short__female__01": 3,
+                "stand__2h_front__01__stop__01": 1,
+                "glance__looking_down__male__01": 2,
+                "stand__2h_back__01__to__stand__2h__front__01__turn0__01": 2,
+                "walk_0__to__stand__2h_front__01__turn90__01": 1,
+                "hanako__stand__2h_front__01": 5,
+                "stand__2h_front__01__to__stand__rh_gun_ready__01": 2,
+                "johnny__stand_bar_lean0__2h_on_bar__01__shuffle__01": 1,
+                "hanako__stand__2h_front__01__sing__03": 1,
+                "stand__2h_front__01__to__stand__2h_front__01__turn270__01": 2,
+                "q110__walk__to__johnny__stand__lh_cigarette__aggressive__01": 1,
+                "hanako__stand__2h_front__01__talk__01": 1,
+                "hanako__stand__2h_front__01__to__walk_0__turn180__01": 1,
+                "hanako__sit_barstool_bar_lean90__rh_on_bar_legs_crossed__01__point_nose__01": 4,
+                "hanako__sit_barstool_bar_lean90__rh_on_bar_legs_crossed__01__sip_drink__01": 3,
+                "johnny__stand_bar_lean0__2h_on_bar__01__shuffle__02": 4,
+                "stand__2h_on_sides__01__bow__01": 1,
+                "walk_0__to__stand__2h_on_sides__01__turn180r__01": 2,
+                "sit_barstool_bar_lean270__lh_on_bar__01__sip_drink__02": 1,
+                "hanako__sit_barstool_bar_lean90__rh_on_bar_legs_crossed__01__to__walk_0__turn180__01": 1,
+                "hanako__stand__2h_front__01__sigh__01": 5,
+                "hanako__stand__2h_front__01__rh_flick__01": 1,
+                "johnny__stand_bar_lean0__2h_on_bar__01__shuffle__03": 2,
+                "yes__sad__female__01": 3
+            }
+        },
+        "base\\quest\\testgym\\q115_00b_hanako.scenesolution": {
+            "interruption_scenarios": [
+                {
+                    "type": "scnbInterruptionScenario"
+                }
+            ],
+            "event_execution_tags": [
+                {
+                    "type": "scnbEventExecutionTag"
+                },
+                {
+                    "type": "scnbEventExecutionTag"
+                },
+                {
+                    "type": "scnbEventExecutionTag"
+                }
+            ],
+            "scene_graph_nodes": {
+                "node_type_count": {
+                    "scnbXorNodeDescriptor": 6,
+                    "scnbHubNodeDescriptor": 19,
+                    "scnbChoiceSectionNodeDescriptor": 16,
+                    "scnbRandomizerNodeDescriptor": 6,
+                    "scnbStartNodeDescriptor": 28,
+                    "scnbCutControlNodeDescriptor": 11,
+                    "toolsSectionNodeDescriptor": 154,
+                    "scnbEndNodeDescriptor": 5,
+                    "toolsQuestNodeDescriptor": 236,
+                    "scnbAndNodeDescriptor": 20
+                },
+                "total_nodes": 501
+            },
+            "actors_count": 11,
+            "props_count": 11,
+            "reference_points_count": 2,
+            "rid_animations": {},
+            "workspots": {
+                "external_workspots": [
+                    {
+                        "path": "base\\workspots\\common\\ground\\generic__stand_ground__guard__02.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\common\\ground\\generic__stand_ground__guard__01.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\main_characters\\hanako\\bar\\hanako__sit_barstool_bar_lean_right__talk__01.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\main_characters\\johnny\\johnny__stand_ground__stand_around__01.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\common\\ground\\big__stand__stand_around__01.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\common\\ground\\generic__stand_ground__stand_around__01.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\common\\ground\\generic__stand_ground__stand_around__04.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\player\\bar\\player__sit_barstool_bar_lean_left__sit_around__02.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\player\\bar\\player__sit_barstool_bar_lean_left__sit_around__02.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\main_characters\\johnny\\bar\\johnny__stand_bar_lean_front__idle__01.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\common\\ground\\big__stand__stand_around__01.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\quest\\main_quests\\part1\\q110\\q110_13_alt_intro\\q110__johnny__stand_ground_cigarette__idle__01.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\common\\ground\\generic__stand_ground__bow0__01.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\common\\ground\\bodyguard__stand_ground__2h_back__01.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\common\\ground\\bodyguard__stand_ground__2h_front__01.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\main_characters\\johnny\\johnny__stand_ground_cigarette__idle__01.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\main_characters\\johnny\\ground\\johnny__walk_ground_cigarette__aggressive__01.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\common\\ground\\bodyguard__stand_ground_pistol__alerted__01.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\common\\bar\\generic__stand_bar_lean_right__stand_around__01.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\common\\ground\\generic__stand_ground__look_at_products__01.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\main_characters\\johnny\\johnny__sit_table_lean_back__sit_around__01.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\main_characters\\johnny\\johnny__sit_chair_lean_front__sit_around__02.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\quest\\main_quests\\part1\\q112\\q112_08_parade_speech\\hanako__stand_stage__sing__01.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\routine\\routine__stand_ground.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\player\\bar\\player__sit_barstool_bar_lean_left__talk__01.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\common\\chair\\generic__sit_chair__sit_around__04.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\main_characters\\hanako\\ground\\hanako__stand_ground__stand_around__01.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\common\\ground\\generic__stand_ground__stand_around__05.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\common\\bar\\generic__stand_bar_lean_front__stand_around__06.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\common\\bar\\generic__stand_bar_lean_front__stand_around__01.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\main_characters\\hanako\\ground\\hanako__stand_ground_piano__play__01.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\quest\\main_quests\\part1\\q103\\q103_15_roadhouse_bar\\q103__player__sit_barstool_bar__sit_around__01.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\quest\\main_quests\\part1\\q115\\q115_00b_hanako\\q115__player__sit_barstool_lean_left__sit_around__01.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\main_characters\\johnny\\johnny__sit_chair_lean_front__sit_around__01.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\common\\ground\\generic__stand_ground_window__clean__01.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\common\\ground\\generic__stand_ground__wait__01.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\common\\ground\\generic__stand_ground__scared__01.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\main_characters\\johnny\\johnny__sit_car_lean_right__sit_around__01.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\main_characters\\johnny\\johnny__sit_chair_lean_back__sit_around__01.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\main_characters\\johnny\\johnny__stand_ground__aggressive__02.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\main_characters\\judy\\judy__stand_ground__stand_around__03.workspot"
+                    },
+                    {
+                        "path": "base\\workspots\\quest\\main_quests\\part1\\q115\\q115_00b_hanako\\q115__hanako__sit_barstool_bar__sit_around__01.workspot"
+                    }
+                ],
+                "internal_workspots": []
+            },
+            "animset_animations": {
+                "stand__2h_front__01__stop__neutral__01": 1,
+                "stand__2h_front__01__conversation_step__01": 1,
+                "None": 136,
+                "stand__2h_front__01__describe_front__01": 1,
+                "glance__looking_left__female__01": 2,
+                "glance__looking_down_thinking__01": 6,
+                "hanako__sit_barstool_bar_lean90__rh_on_bar_legs_crossed__01__nervous_tap__01": 4,
+                "johnny__stand__lh_pocket__01__look_left__01": 1,
+                "other_gesture__asymmetrical_smile__male__01": 1,
+                "hanako__sit_chair_lean0__play_piano__01": 1,
+                "no__long__female__01": 1,
+                "stand__2h_front__01__to__walk0__turn225__01": 1,
+                "hanako__stand__2h_front__01__sing__04": 1,
+                "sit_barstool_bar_lean270__lh_on_bar__wipe_nose__01": 5,
+                "no__firm__female__01": 3,
+                "no__subtle__female__01": 1,
+                "johnny__stand_bar_lean0__2h_on_bar__01__talk__01": 2,
+                "hanako__sit_barstool_bar_lean90__rh_on_bar_legs_crossed__01__flick__01": 1,
+                "stand__2h_on_sides__01__to__sit_barstool_bar_lean270__lh_on_bar__02__turn45__01": 1,
+                "additive__closed_eyes__01": 4,
+                "walk_0__to__stand__2h_front__01__turn270__01": 1,
+                "stand__2h_front__01": 10,
+                "johnny__stand__lh_cigarette__aggressive__01__conversation_step__01": 1,
+                "stand__2h_back__01__to__stand__2h_back__01__turn45__01": 1,
+                "sit_barstool_bar_lean270__lh_on_bar__02": 2,
+                "other_gesture__smile__female__01": 1,
+                "hanako__stand__2h_front__01__take_you__01": 1,
+                "hanako__sit_barstool_bar_lean90__rh_on_bar_legs_crossed__01__stop__01": 1,
+                "q115__hanako_goes_to_bar__02": 1,
+                "stand__2h_back__01__to__stand__2h_back__01__turn315__01": 1,
+                "stand_bar_lean0__2h_on_bar__01__yawn__01": 1,
+                "add__stand_table_lean0__2h_on_table__01": 1,
+                "johnny__stand__lh_cigarette__aggressive__01": 4,
+                "stand__2h_front__01__to__walk_0__01": 3,
+                "hanako__stand__2h_front__01__rub_hands__01": 1,
+                "phrasal_gesture__what__female__01": 2,
+                "q110__walk_0__to__johnny__stand__lh_pocket__01__turn0__01": 1,
+                "emotional_gesture__contempt__male__01": 1,
+                "johnny__sit_chair_lean180__arms_legs_crossed__01__laugh__01": 2,
+                "johnny__stand__lh_pocket__01__hurry_up__01": 1,
+                "stand__2h_front__01__to__stand__2h_back__01__turn0__01": 1,
+                "stand__2h_on_sides__01__to__stand__2h_front__01__turn0__01": 2,
+                "glance__left_45_procesing_info__01": 2,
+                "sit_barstool_bar_lean270__lh_on_bar__01__to__sit_barstool_bar_lean270__lh_on_bar__wipe_nose__01__turn0__01": 5,
+                "q115_hanako__sit_barstool_bar_lean90__rh_on_bar_legs_crossed__01__sip_drink__01": 1,
+                "q115__hanako_goes_to_bar__03": 1,
+                "stand__2h_front__01__to__walk_0__turn180l__01": 1,
+                "johnny__stand_bar_lean0__2h_on_bar__01__listening__01": 1,
+                "johnny__sit_chair_lean180__arms_legs_crossed__01__lean_forward__01": 1,
+                "stand__2h_back__01__to__step_front__01__turn0__01": 1,
+                "stand__2h_front__01__two_step_left__01": 1,
+                "phrasal_gesture__what_do_you_want__female__02": 1,
+                "sit_chair_lean0__2h_elbow_on_knees__01": 1,
+                "walk_0__to__stand__arms_crossed_front__01__turn270__01": 1,
+                "stand__rh_gun_ready__01__to__stand__2h_front__01": 2,
+                "johnny__sit_chair_lean180__arms_legs_crossed__01": 1,
+                "emotional_gesture__annoyed__male__01": 2,
+                "fpp_idle_stand": 38,
+                "stand__2h_on_sides__01": 1,
+                "stand__2h_back__01": 3,
+                "yes__firm__female__01": 5,
+                "glance__look_around__01": 3,
+                "yes__subtle__female__01": 2,
+                "hanako__sit_barstool_bar_lean90__rh_on_bar_legs_crossed__01": 7,
+                "stand_table_lean0__2h_on_table__01": 1,
+                "sit_barstool_bar_lean270__lh_on_bar__01": 1,
+                "johnny__stand_bar_lean0__2h_on_bar__01": 8,
+                "stand__rh_gun_ready__01": 2,
+                "hanako__sit_barstool_bar_lean90__rh_on_bar_legs_crossed__01__talk__07": 4,
+                "emotional_gesture__annoyed__male__02": 1,
+                "q115__hanako_goes_to_bar__01": 2,
+                "stand__2h_back__01__describe_left__01": 1,
+                "johnny__stand_bar_lean0__2h_on_bar__01__shuffle__05": 1,
+                "phrasal_gesture__maybe__female__01": 1,
+                "glance__looking_down__female__01": 10,
+                "walk_0__to__stand__2h_front__01__turn0__01": 1,
+                "sit_chair_lean0__2h_elbow_on_knees__01__to__johnny__sit_chair_lean180__arms_legs_crossed__01__turn0__01": 1,
+                "stand__2h_front__01__nod__respectful__02": 1,
+                "stand_bow0__2h_front__01__bow__01": 4,
+                "stand__2h_front__01__two_step_right__02__forward": 1,
+                "bouncer__walk_0__to__stand__2h_back__01__turn90__01": 1,
+                "other_gesture__false_smile__female__01": 1,
+                "stand_bar_lean0__2h_on_bar__01": 1,
+                "sit_barstool_bar_lean270__lh_on_bar__wipe_nose__01__to__sit_barstool_bar_lean270__lh_on_bar__01__turn0__01": 1,
+                "johnny__stand_bar_lean0__2h_on_bar__01__to__walk_0__turn45__01": 1,
+                "hanako__sit_chair_lean0__play_piano__01__to__hanako__stand__2h_front__01": 1,
+                "emotional_gesture__disappointed__female__01": 1,
+                "hanako__sit_barstool_bar_lean90__rh_on_bar_legs_crossed__01__gesture__02": 1,
+                "hanako__stand__2h_front__01__talk__02": 1,
+                "idle_stand__01__cough__01": 1,
+                "glance__front_close__female__01": 1,
+                "yes__approval__male__01": 1,
+                "hanako__sit_barstool_bar_lean90__rh_on_bar_legs_crossed__01__talk__09": 1,
+                "stand__2h_back__01__shuffle__04": 1,
+                "sit_barstool_bar_lean270__lh_on_bar__01__spill_drink__02": 1,
+                "hanako__stand__2h_front__01__sing__01": 1,
+                "johnny__sit_chair_lean180__arms_legs_crossed__01__facepalm__01": 1,
+                "johnny__stand__lh_cigarette__aggressive__01__puff__06": 1,
+                "sit_barstool_bar_lean270__lh_on_bar__02__to__stand__2h_on_sides__01__turn90__01": 1,
+                "hanako__stand__2h_front__01__talk__03": 3,
+                "walk_0__to__hanako__stand__2h_front__01__turn0__01": 1,
+                "hanako__sit_barstool_bar_lean90__rh_on_bar_legs_crossed__01__talk__08": 2,
+                "glance__right_45_procesing_info__01": 1,
+                "hanako__stand__2h_front__01__shuffle__02": 1,
+                "walk_0__to__stand__2h_back__01__turn90__01": 2,
+                "johnny__sit_chair_lean180__arms_legs_crossed__01__deep_breath__01": 1,
+                "stand__2h_back__01__to__walk_0__turn0__01": 2,
+                "stand__2h_back__01__to__walk_0__turn270__01": 1,
+                "idle_gesture_cm__smile_short__female__01": 3,
+                "stand__2h_front__01__stop__01": 1,
+                "stand__2h_front__01__two_step_right__01": 1,
+                "glance__looking_down__male__01": 2,
+                "walk_0__to__stand__2h_front__01__turn90__01": 1,
+                "stand__2h_back__01__to__stand__2h__front__01__turn0__01": 2,
+                "hanako__stand__2h_front__01": 19,
+                "stand__2h_front__01__to__stand__rh_gun_ready__01": 2,
+                "johnny__stand_bar_lean0__2h_on_bar__01__shuffle__01": 1,
+                "hanako__stand__2h_front__01__sing__03": 1,
+                "stand__2h_front__01__to__stand__2h_front__01__turn270__01": 1,
+                "q110__walk__to__johnny__stand__lh_cigarette__aggressive__01": 1,
+                "hanako__stand__2h_front__01__talk__01": 1,
+                "hanako__stand__2h_front__01__to__walk_0__turn180__01": 1,
+                "hanako__sit_barstool_bar_lean90__rh_on_bar_legs_crossed__01__point_nose__01": 4,
+                "hanako__sit_barstool_bar_lean90__rh_on_bar_legs_crossed__01__sip_drink__01": 3,
+                "johnny__stand_bar_lean0__2h_on_bar__01__shuffle__02": 4,
+                "stand__2h_on_sides__01__bow__01": 1,
+                "walk_0__to__stand__2h_on_sides__01__turn180r__01": 2,
+                "sit_barstool_bar_lean270__lh_on_bar__01__sip_drink__02": 1,
+                "hanako__sit_barstool_bar_lean90__rh_on_bar_legs_crossed__01__to__walk_0__turn180__01": 1,
+                "hanako__stand__2h_front__01__sigh__01": 5,
+                "hanako__stand__2h_front__01__rh_flick__01": 1,
+                "johnny__stand_bar_lean0__2h_on_bar__01__shuffle__03": 3,
+                "yes__sad__female__01": 3
+            }
+        }
+    },
+    "quests": {}
+}
