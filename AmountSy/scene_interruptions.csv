@@ -1,3 +1,12 @@
 ﻿场景路径,序号,类型
-base\quest\testgym\meethanako.scenesolution,1,scnbInterruptionScenario
-base\quest\testgym\q115_00b_hanako.scenesolution,1,scnbInterruptionScenario
+base\quest\side_quests\sq004\scenes\sq004_01_call.scenesolution,1,scnbInterruptionScenario
+base\quest\side_quests\sq004\scenes\sq004_01_call.scenesolution,2,scnbInterruptionScenario
+base\quest\side_quests\sq004\scenes\sq004_05_infiltration.scenesolution,1,scnbInterruptionScenario
+base\quest\side_quests\sq004\scenes\sq004_06_prison_escape.scenesolution,1,scnbInterruptionScenario
+base\quest\side_quests\sq004\scenes\sq004_04_drive.scenesolution,1,scnbInterruptionScenario
+base\quest\side_quests\sq004\scenes\sq004_07_chase.scenesolution,1,scnbInterruptionScenario
+base\quest\side_quests\sq004\scenes\sq004_02_intro.scenesolution,1,scnbInterruptionScenario
+base\quest\side_quests\sq004\scenes\sq004_02_intro.scenesolution,2,scnbInterruptionScenario
+base\quest\side_quests\sq004\scenes\sq004_09_morning_after.scenesolution,1,scnbInterruptionScenario
+base\quest\side_quests\sq004\scenes\sq004_08_farm.scenesolution,1,scnbInterruptionScenario
+base\quest\side_quests\sq004\scenes\sq004_00_chicken_test.scenesolution,1,scnbInterruptionScenario

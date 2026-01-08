@@ -29,6 +29,12 @@ def parse_section_summary(data):
             tracks = section.get('tracks', [])
             animations = section.get('animset_animations', {})
 
+            # 获取新的动画字段
+            playsk_animations = section.get('PlaySkAnim_animations', {})
+            changeidle_animations = section.get('ChangeIdleAnim_animations', {})
+            changework_animations = section.get('ChangeWorkEvent_animations', {})
+            stopwork_animations = section.get('StopWorkEvent_animations', {})
+
             # 统计各种轨道类型的数量
             track_types = [track.get('track_type') for track in tracks]
             track_type_count = Counter(track_types)
@@ -50,7 +56,15 @@ def parse_section_summary(data):
                 '类型8轨道数': track_type_count.get(8, 0),
                 'Clip总数': total_clips,
                 '动画种类数': len(animations),
-                '动画使用总次数': sum(animations.values()) if animations else 0
+                '动画使用总次数': sum(animations.values()) if animations else 0,
+                'PlaySkAnim种类数': len(playsk_animations),
+                'PlaySkAnim使用次数': sum(playsk_animations.values()) if playsk_animations else 0,
+                'ChangeIdleAnim种类数': len(changeidle_animations),
+                'ChangeIdleAnim使用次数': sum(changeidle_animations.values()) if changeidle_animations else 0,
+                'ChangeWorkEvent种类数': len(changework_animations),
+                'ChangeWorkEvent使用次数': sum(changework_animations.values()) if changework_animations else 0,
+                'StopWorkEvent种类数': len(stopwork_animations),
+                'StopWorkEvent使用次数': sum(stopwork_animations.values()) if stopwork_animations else 0
             })
 
     return pd.DataFrame(sections)
@@ -141,6 +155,102 @@ def parse_section_animations(data):
     return pd.DataFrame(animation_records)
 
 
+def parse_playsk_animations(data):
+    """解析PlaySkAnim动画信息"""
+    animation_records = []
+
+    scene_solutions = data.get('scene_solutions', {})
+
+    for scene_path, scene_data in scene_solutions.items():
+        section_list = scene_data.get('sections', [])
+
+        for section in section_list:
+            section_name = section.get('section_name', '')
+            animations = section.get('PlaySkAnim_animations', {})
+
+            for anim_name, count in animations.items():
+                animation_records.append({
+                    '场景路径': scene_path,
+                    '段落名称': section_name,
+                    '动画名称': anim_name,
+                    '使用次数': count
+                })
+
+    return pd.DataFrame(animation_records)
+
+
+def parse_changeidle_animations(data):
+    """解析ChangeIdleAnim动画信息"""
+    animation_records = []
+
+    scene_solutions = data.get('scene_solutions', {})
+
+    for scene_path, scene_data in scene_solutions.items():
+        section_list = scene_data.get('sections', [])
+
+        for section in section_list:
+            section_name = section.get('section_name', '')
+            animations = section.get('ChangeIdleAnim_animations', {})
+
+            for anim_name, count in animations.items():
+                animation_records.append({
+                    '场景路径': scene_path,
+                    '段落名称': section_name,
+                    '动画名称': anim_name,
+                    '使用次数': count
+                })
+
+    return pd.DataFrame(animation_records)
+
+
+def parse_changework_animations(data):
+    """解析ChangeWorkEvent动画信息"""
+    animation_records = []
+
+    scene_solutions = data.get('scene_solutions', {})
+
+    for scene_path, scene_data in scene_solutions.items():
+        section_list = scene_data.get('sections', [])
+
+        for section in section_list:
+            section_name = section.get('section_name', '')
+            animations = section.get('ChangeWorkEvent_animations', {})
+
+            for anim_name, count in animations.items():
+                animation_records.append({
+                    '场景路径': scene_path,
+                    '段落名称': section_name,
+                    '动画名称': anim_name,
+                    '使用次数': count
+                })
+
+    return pd.DataFrame(animation_records)
+
+
+def parse_stopwork_animations(data):
+    """解析StopWorkEvent动画信息"""
+    animation_records = []
+
+    scene_solutions = data.get('scene_solutions', {})
+
+    for scene_path, scene_data in scene_solutions.items():
+        section_list = scene_data.get('sections', [])
+
+        for section in section_list:
+            section_name = section.get('section_name', '')
+            animations = section.get('StopWorkEvent_animations', {})
+
+            for anim_name, count in animations.items():
+                animation_records.append({
+                    '场景路径': scene_path,
+                    '段落名称': section_name,
+                    '动画名称': anim_name,
+                    '使用次数': count
+                })
+
+    return pd.DataFrame(animation_records)
+
+
 def parse_track_type_statistics(data):
     """解析轨道类型统计"""
     type_records = []
@@ -203,7 +313,7 @@ def parse_clip_type_statistics(data):
 def main():
     """主函数"""
     # 文件路径
-    json_file = 'Full_Section.json'
+    json_file = 'Full_scenesAnimal.json'
     output_dir = Path('.')
 
     print(f"正在读取JSON文件: {json_file}")
@@ -221,6 +331,18 @@ def main():
 
     print("正在解析段落动画信息...")
     df_animations = parse_section_animations(data)
+
+    print("正在解析PlaySkAnim动画...")
+    df_playsk_animations = parse_playsk_animations(data)
+
+    print("正在解析ChangeIdleAnim动画...")
+    df_changeidle_animations = parse_changeidle_animations(data)
+
+    print("正在解析ChangeWorkEvent动画...")
+    df_changework_animations = parse_changework_animations(data)
+
+    print("正在解析StopWorkEvent动画...")
+    df_stopwork_animations = parse_stopwork_animations(data)
 
     print("正在解析轨道类型统计...")
     df_track_types = parse_track_type_statistics(data)
@@ -242,6 +364,18 @@ def main():
     df_animations.to_csv(output_dir / 'section_animations.csv', index=False, encoding='utf-8-sig')
     print(f"  - section_animations.csv (段落动画: {len(df_animations)} 行)")
 
+    df_playsk_animations.to_csv(output_dir / 'playsk_animations.csv', index=False, encoding='utf-8-sig')
+    print(f"  - playsk_animations.csv (PlaySkAnim动画: {len(df_playsk_animations)} 行)")
+
+    df_changeidle_animations.to_csv(output_dir / 'changeidle_animations.csv', index=False, encoding='utf-8-sig')
+    print(f"  - changeidle_animations.csv (ChangeIdleAnim动画: {len(df_changeidle_animations)} 行)")
+
+    df_changework_animations.to_csv(output_dir / 'changework_animations.csv', index=False, encoding='utf-8-sig')
+    print(f"  - changework_animations.csv (ChangeWorkEvent动画: {len(df_changework_animations)} 行)")
+
+    df_stopwork_animations.to_csv(output_dir / 'stopwork_animations.csv', index=False, encoding='utf-8-sig')
+    print(f"  - stopwork_animations.csv (StopWorkEvent动画: {len(df_stopwork_animations)} 行)")
+
     df_track_types.to_csv(output_dir / 'track_type_statistics.csv', index=False, encoding='utf-8-sig')
     print(f"  - track_type_statistics.csv (轨道类型统计: {len(df_track_types)} 行)")
 
@@ -262,6 +396,10 @@ def main():
                 (df_tracks, '轨道详情'),
                 (df_clips, '剪辑详情'),
                 (df_animations, '段落动画'),
+                (df_playsk_animations, 'PlaySkAnim动画'),
+                (df_changeidle_animations, 'ChangeIdleAnim动画'),
+                (df_changework_animations, 'ChangeWorkEvent动画'),
+                (df_stopwork_animations, 'StopWorkEvent动画'),
                 (df_track_types, '轨道类型统计'),
                 (df_clip_types, '剪辑类型统计')
             ]
@@ -328,6 +466,10 @@ def main():
     print(f"  - 轨道总数: {len(df_tracks)}")
     print(f"  - 剪辑总数: {len(df_clips)}")
     print(f"  - 动画记录数: {len(df_animations)}")
+    print(f"  - PlaySkAnim动画记录数: {len(df_playsk_animations)}")
+    print(f"  - ChangeIdleAnim动画记录数: {len(df_changeidle_animations)}")
+    print(f"  - ChangeWorkEvent动画记录数: {len(df_changework_animations)}")
+    print(f"  - StopWorkEvent动画记录数: {len(df_stopwork_animations)}")
     print(f"  - 轨道类型数: {len(df_track_types)}")
     print(f"  - 剪辑类型数: {len(df_clip_types)}")
 

@@ -46,7 +46,6 @@ base\quest\testgym\meethanako.scenesolution,q115_00b_hanako_greet,logic,8,1,scnb
 base\quest\testgym\meethanako.scenesolution,q115_00b_25,dialog lines,1,1,toolsDialogLineEventDescriptor
 base\quest\testgym\meethanako.scenesolution,q115_00b_25,facial,5,1,toolsChangeIdleAnimDescriptor
 base\quest\testgym\meethanako.scenesolution,q115_00b_25,lookAt,6,1,toolsLookAtDescriptor
-base\quest\testgym\meethanako.scenesolution,q115_00b_guard_01_lookat,idle,3,1,scnbeventsChangeWorkEvent
 base\quest\testgym\meethanako.scenesolution,q115_00b_guard_01_lookat,lookAt,6,1,toolsLookAtDescriptor
 base\quest\testgym\meethanako.scenesolution,q115_00b_greeting,dialog lines,1,1,toolsDialogLineEventDescriptor
 base\quest\testgym\meethanako.scenesolution,q115_00b_greeting,logic,8,1,scnbeventsSocketDescriptor
@@ -95,6 +94,7 @@ base\quest\testgym\meethanako.scenesolution,q115_00b_johnny_pissed,dialog lines,
 base\quest\testgym\meethanako.scenesolution,q115_00b_johnny_pissed,idle,3,1,scnbeventsChangeWorkEvent
 base\quest\testgym\meethanako.scenesolution,q115_00b_johnny_pissed,facial,5,1,toolsChangeIdleAnimDescriptor
 base\quest\testgym\meethanako.scenesolution,q115_00b_johnny_pissed,lookAt,6,1,toolsLookAtDescriptor
+base\quest\testgym\meethanako.scenesolution,q115_00b_johnny_pissed,logic,8,1,scnbeventsSocketDescriptor
 base\quest\testgym\meethanako.scenesolution,q115_00b_johnny_pissed_lookat_reaction,lookAt,6,1,toolsLookAtDescriptor
 base\quest\testgym\meethanako.scenesolution,q115_00b_we_delta,dialog lines,1,1,toolsDialogLineEventDescriptor
 base\quest\testgym\meethanako.scenesolution,q115_00b_relax_johnny,dialog lines,1,1,toolsDialogLineEventDescriptor
@@ -102,6 +102,7 @@ base\quest\testgym\meethanako.scenesolution,q115_00b_relax_johnny,dialog lines,1
 base\quest\testgym\meethanako.scenesolution,q115_00b_relax_johnny,idle,3,1,scnbeventsChangeWorkEvent
 base\quest\testgym\meethanako.scenesolution,q115_00b_relax_johnny,facial,5,1,toolsChangeIdleAnimDescriptor
 base\quest\testgym\meethanako.scenesolution,q115_00b_relax_johnny,logic,8,1,scnbeventsSocketDescriptor
+base\quest\testgym\meethanako.scenesolution,q115_00b_johnny_pissed_02,dialog lines,1,1,toolsDialogLineEventDescriptor
 base\quest\testgym\meethanako.scenesolution,q115_00b_johnny_pissed_02,idle,3,1,scnbeventsChangeWorkEvent
 base\quest\testgym\meethanako.scenesolution,q115_00b_johnny_pissed_02,animation,4,1,toolsPlaySkAnimDescriptor
 base\quest\testgym\meethanako.scenesolution,q115_00b_johnny_pissed_02,facial,5,1,toolsChangeIdleAnimDescriptor
@@ -112,7 +113,7 @@ base\quest\testgym\meethanako.scenesolution,q115_00b_johnny_pissed_02,logic,8,1,
 base\quest\testgym\meethanako.scenesolution,q115_00b_hanako_inital_pose2,idle,3,1,scnbeventsChangeWorkEvent
 base\quest\testgym\meethanako.scenesolution,q115_00b_hanako_inital_pose2,facial,5,1,toolsChangeIdleAnimDescriptor
 base\quest\testgym\meethanako.scenesolution,q115_00b_hanako_inital_pose2,lookAt,6,1,toolsLookAtDescriptor
-base\quest\testgym\meethanako.scenesolution,q115_00b_262,idle,3,1,scnbeventsStopWorkEvent
+base\quest\testgym\meethanako.scenesolution,q115_00b_26,idle,3,1,scnbeventsStopWorkEvent
 base\quest\testgym\meethanako.scenesolution,q115_00b_no_love_for_corpo_01,dialog lines,1,1,toolsDialogLineEventDescriptor
 base\quest\testgym\meethanako.scenesolution,q115_00b_no_love_for_corpo_01,dialog lines,1,2,toolsDialogLineEventDescriptor
 base\quest\testgym\meethanako.scenesolution,q115_00b_no_love_for_corpo_01,idle,3,1,scnbeventsChangeWorkEvent
@@ -288,8 +289,6 @@ base\quest\testgym\meethanako.scenesolution,q115_00b_my_brother,logic,8,1,scnbev
 base\quest\testgym\meethanako.scenesolution,q115_00b_my_brother,logic,8,1,scnbeventsSocketDescriptor
 base\quest\testgym\meethanako.scenesolution,q115_00b_player_sitting_animation,idle,3,1,scnbeventsChangeWorkEvent
 base\quest\testgym\meethanako.scenesolution,q115_00b_player_sitting_animation,lookAt,6,1,scnbeventsCameraClipDescriptor
-base\quest\testgym\meethanako.scenesolution,TestSectionConOne,animation,4,1,toolsPlaySkAnimDescriptor
-base\quest\testgym\meethanako.scenesolution,TestSectionConTwo,idle,3,1,scnbeventsChangeWorkEvent
 base\quest\testgym\meethanako.scenesolution,q115_00b_johnny_comment_04,dialog lines,1,1,toolsDialogLineEventDescriptor
 base\quest\testgym\meethanako.scenesolution,q115_00b_johnny_comment_04,idle,3,1,toolsChangeIdleAnimDescriptor
 base\quest\testgym\meethanako.scenesolution,q115_00b_johnny_comment_04,facial,5,1,toolsPlaySkAnimDescriptor
@@ -412,6 +411,7 @@ base\quest\testgym\meethanako.scenesolution,q115_00b_nervous_johnny,lookAt,6,1,t
 base\quest\testgym\meethanako.scenesolution,q115_00b_nervous_johnny,idle,3,1,scnbeventsStopWorkEvent
 base\quest\testgym\meethanako.scenesolution,q115_00b_nervous_johnny,animation,4,1,scnbeventsChangeWorkEvent
 base\quest\testgym\meethanako.scenesolution,q115_00b_nervous_johnny,idle,3,1,scnbeventsChangeWorkEvent
+base\quest\testgym\meethanako.scenesolution,q115_00b_nervous_johnny,animation,4,1,scnbeventsCameraClipDescriptor
 base\quest\testgym\meethanako.scenesolution,q115_00b_nervous_johnny,facial,5,1,scnbeventsVFXEventDescriptor
 base\quest\testgym\meethanako.scenesolution,q115_00b_nervous_johnny,logic,8,1,scnbeventsSocketDescriptor
 base\quest\testgym\meethanako.scenesolution,q115_00b_nervous_johnny,VFX,15,1,scnbeventsVFXEventDescriptor
@@ -477,7 +477,6 @@ base\quest\testgym\meethanako.scenesolution,q115_00b_angry_johnny,dialog lines,1
 base\quest\testgym\meethanako.scenesolution,q115_00b_angry_johnny,dialog lines,1,5,toolsDialogLineEventDescriptor
 base\quest\testgym\meethanako.scenesolution,q115_00b_angry_johnny,animation,4,1,toolsPlaySkAnimDescriptor
 base\quest\testgym\meethanako.scenesolution,q115_00b_angry_johnny,facial,5,1,toolsPlaySkAnimDescriptor
-base\quest\testgym\meethanako.scenesolution,q115_00b_angry_johnny,lookAt,6,1,toolsChangeIdleAnimDescriptor
 base\quest\testgym\meethanako.scenesolution,q115_00b_angry_johnny,idle,3,1,scnbeventsStopWorkEvent
 base\quest\testgym\meethanako.scenesolution,q115_00b_angry_johnny,idle,3,1,scnbeventsChangeWorkEvent
 base\quest\testgym\meethanako.scenesolution,q115_00b_angry_johnny,animation,4,1,scnbeventsVFXEventDescriptor
@@ -533,6 +532,7 @@ base\quest\testgym\meethanako.scenesolution,q115_00b_v_getting_from_the_bar_anim
 base\quest\testgym\meethanako.scenesolution,q115_00b_v_getting_from_the_bar_animation,logic,8,4,scnbeventsSocketDescriptor
 base\quest\testgym\meethanako.scenesolution,q115_00b_v_getting_from_the_bar_animation,facial,5,1,toolsChangeIdleAnimDescriptor
 base\quest\testgym\meethanako.scenesolution,q115_00b_leave_restaurant,dialog lines,1,1,toolsDialogLineEventDescriptor
+base\quest\testgym\meethanako.scenesolution,q115_00b_leave_restaurant,logic,8,1,scnbeventsVFXEventDescriptor
 base\quest\testgym\meethanako.scenesolution,q115_00b_leave_restaurant,logic,8,1,scnbeventsSocketDescriptor
 base\quest\testgym\meethanako.scenesolution,q115_00b_inside_fluff,dialog lines,1,1,toolsDialogLineEventDescriptor
 base\quest\testgym\meethanako.scenesolution,q115_00b_inside_fluff,dialog lines,1,2,toolsDialogLineEventDescriptor
@@ -571,6 +571,8 @@ base\quest\testgym\meethanako.scenesolution,q115_00b_power_conclusion,dialog lin
 base\quest\testgym\meethanako.scenesolution,q115_00b_power_conclusion,facial,5,1,toolsChangeIdleAnimDescriptor
 base\quest\testgym\meethanako.scenesolution,q115_00b_power_conclusion,logic,8,1,scnbeventsSocketDescriptor
 base\quest\testgym\meethanako.scenesolution,q115_00b_power_conclusion,idle,3,1,scnbeventsChangeWorkEvent
+base\quest\testgym\meethanako.scenesolution,q115_00b_eye_glow,logic,8,1,scnbeventsVFXEventDescriptor
+base\quest\testgym\meethanako.scenesolution,q115_00b_eye_glow,logic,8,2,scnbeventsSocketDescriptor
 base\quest\testgym\meethanako.scenesolution,q115_00b_guard_01_ending_scenespot,idle,3,1,scnbeventsChangeWorkEvent
 base\quest\testgym\meethanako.scenesolution,q115_00b_guard_01_ending_scenespot,idle,3,2,scnbeventsChangeWorkEvent
 base\quest\testgym\meethanako.scenesolution,q115_00b_15,idle,3,1,scnbeventsStopWorkEvent
@@ -595,6 +597,8 @@ base\quest\testgym\meethanako.scenesolution,q115_00b_stop_anim,animation,4,1,too
 base\quest\testgym\meethanako.scenesolution,q115_00b_30,idle,3,1,scnbeventsStopWorkEvent
 base\quest\testgym\meethanako.scenesolution,q115_00b_33,idle,3,1,scnbeventsChangeWorkEvent
 base\quest\testgym\meethanako.scenesolution,q115_00b_johnny_walking_into_frame,idle,3,1,scnbeventsChangeWorkEvent
+base\quest\testgym\meethanako.scenesolution,q115_00b_johnny_walking_into_frame,logic,8,1,scnbeventsVFXEventDescriptor
+base\quest\testgym\meethanako.scenesolution,q115_00b_johnny_walking_into_frame,logic,8,2,scnbeventsSocketDescriptor
 base\quest\testgym\meethanako.scenesolution,q115_00b_player_cough,animation,4,1,toolsPlaySkAnimDescriptor
 base\quest\testgym\meethanako.scenesolution,q115_00b_player_cough,VFX,15,1,scnbeventsVFXDurationEventDescriptor
 base\quest\testgym\meethanako.scenesolution,q115_00b_31,idle,3,1,scnbeventsStopWorkEvent
@@ -622,8 +626,14 @@ base\quest\testgym\meethanako.scenesolution,q115_00b_guard_animations,facial,5,1
 base\quest\testgym\meethanako.scenesolution,q115_00b_guard_animations,idle,3,1,scnbeventsChangeWorkEvent
 base\quest\testgym\meethanako.scenesolution,q115_00b_guard_animations,facial,5,1,toolsChangeIdleAnimDescriptor
 base\quest\testgym\meethanako.scenesolution,q115_00b_guard_animations,lookAt,6,1,toolsLookAtDescriptor
-base\quest\testgym\meethanako.scenesolution,sadasdad,idle,3,1,scnbeventsChangeWorkEvent
-base\quest\testgym\meethanako.scenesolution,sadasdad,idle,3,2,scnbeventsChangeWorkEvent
+base\quest\testgym\meethanako.scenesolution,q115_00b_waitress_bow,idle,3,1,toolsPlaySkAnimDescriptor
+base\quest\testgym\meethanako.scenesolution,q115_00b_waitress_bow,lookAt,6,1,toolsLookAtDescriptor
+base\quest\testgym\meethanako.scenesolution,q115_00b_waitress_bow,lookAt,6,2,toolsLookAtDescriptor
+base\quest\testgym\meethanako.scenesolution,q115_00b_waitress_bow,lookAt,6,3,toolsLookAtDescriptor
+base\quest\testgym\meethanako.scenesolution,q115_00b_waitress_bow,lookAt,6,4,toolsLookAtDescriptor
+base\quest\testgym\meethanako.scenesolution,q115_00b_waitress_bow,animation,4,1,toolsPlaySkAnimDescriptor
+base\quest\testgym\meethanako.scenesolution,q115_00b_waitress_bow,lookAt,6,1,toolsLookAtDescriptor
+base\quest\testgym\meethanako.scenesolution,q115_00b_waitress_bow,lookAt,6,2,toolsLookAtDescriptor
 base\quest\testgym\q115_00b_hanako.scenesolution,q115_00b_guards,dialog lines,1,1,toolsDialogLineEventDescriptor
 base\quest\testgym\q115_00b_hanako.scenesolution,q115_00b_guards,logic,8,1,scnbeventsSocketDescriptor
 base\quest\testgym\q115_00b_hanako.scenesolution,q115_00b_leave_restaurant,dialog lines,1,1,toolsDialogLineEventDescriptor

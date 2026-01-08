@@ -147,7 +147,7 @@ base\quest\testgym\meethanako.scenesolution,q115_00b_guard_01_lookat,5,facial,5,
 base\quest\testgym\meethanako.scenesolution,q115_00b_guard_01_lookat,6,lookAt,6,0
 base\quest\testgym\meethanako.scenesolution,q115_00b_guard_01_lookat,7,logic,8,0
 base\quest\testgym\meethanako.scenesolution,q115_00b_guard_01_lookat,8,guard_01,2,0
-base\quest\testgym\meethanako.scenesolution,q115_00b_guard_01_lookat,9,idle,3,1
+base\quest\testgym\meethanako.scenesolution,q115_00b_guard_01_lookat,9,idle,3,0
 base\quest\testgym\meethanako.scenesolution,q115_00b_guard_01_lookat,10,animation,4,0
 base\quest\testgym\meethanako.scenesolution,q115_00b_guard_01_lookat,11,facial,5,0
 base\quest\testgym\meethanako.scenesolution,q115_00b_guard_01_lookat,12,lookAt,6,1
@@ -244,7 +244,7 @@ base\quest\testgym\meethanako.scenesolution,q115_00b_johnny_pissed,3,idle,3,1
 base\quest\testgym\meethanako.scenesolution,q115_00b_johnny_pissed,4,animation,4,0
 base\quest\testgym\meethanako.scenesolution,q115_00b_johnny_pissed,5,facial,5,1
 base\quest\testgym\meethanako.scenesolution,q115_00b_johnny_pissed,6,lookAt,6,1
-base\quest\testgym\meethanako.scenesolution,q115_00b_johnny_pissed,7,logic,8,0
+base\quest\testgym\meethanako.scenesolution,q115_00b_johnny_pissed,7,logic,8,1
 base\quest\testgym\meethanako.scenesolution,q115_00b_johnny_pissed_lookat_reaction,1,dialog lines,1,0
 base\quest\testgym\meethanako.scenesolution,q115_00b_johnny_pissed_lookat_reaction,2,johnny,2,0
 base\quest\testgym\meethanako.scenesolution,q115_00b_johnny_pissed_lookat_reaction,3,idle,3,0
@@ -260,7 +260,7 @@ base\quest\testgym\meethanako.scenesolution,q115_00b_relax_johnny,4,animation,4,
 base\quest\testgym\meethanako.scenesolution,q115_00b_relax_johnny,5,facial,5,1
 base\quest\testgym\meethanako.scenesolution,q115_00b_relax_johnny,6,lookAt,6,0
 base\quest\testgym\meethanako.scenesolution,q115_00b_relax_johnny,7,logic,8,1
-base\quest\testgym\meethanako.scenesolution,q115_00b_johnny_pissed_02,1,dialog lines,1,0
+base\quest\testgym\meethanako.scenesolution,q115_00b_johnny_pissed_02,1,dialog lines,1,1
 base\quest\testgym\meethanako.scenesolution,q115_00b_johnny_pissed_02,2,johnny,2,0
 base\quest\testgym\meethanako.scenesolution,q115_00b_johnny_pissed_02,3,idle,3,1
 base\quest\testgym\meethanako.scenesolution,q115_00b_johnny_pissed_02,4,animation,4,1
@@ -274,13 +274,13 @@ base\quest\testgym\meethanako.scenesolution,q115_00b_hanako_inital_pose2,4,anima
 base\quest\testgym\meethanako.scenesolution,q115_00b_hanako_inital_pose2,5,facial,5,1
 base\quest\testgym\meethanako.scenesolution,q115_00b_hanako_inital_pose2,6,lookAt,6,1
 base\quest\testgym\meethanako.scenesolution,q115_00b_hanako_inital_pose2,7,logic,8,0
-base\quest\testgym\meethanako.scenesolution,q115_00b_262,1,dialog lines,1,0
-base\quest\testgym\meethanako.scenesolution,q115_00b_262,2,johnny,2,0
-base\quest\testgym\meethanako.scenesolution,q115_00b_262,3,idle,3,1
-base\quest\testgym\meethanako.scenesolution,q115_00b_262,4,animation,4,0
-base\quest\testgym\meethanako.scenesolution,q115_00b_262,5,facial,5,0
-base\quest\testgym\meethanako.scenesolution,q115_00b_262,6,lookAt,6,0
-base\quest\testgym\meethanako.scenesolution,q115_00b_262,7,logic,8,0
+base\quest\testgym\meethanako.scenesolution,q115_00b_26,1,dialog lines,1,0
+base\quest\testgym\meethanako.scenesolution,q115_00b_26,2,johnny,2,0
+base\quest\testgym\meethanako.scenesolution,q115_00b_26,3,idle,3,1
+base\quest\testgym\meethanako.scenesolution,q115_00b_26,4,animation,4,0
+base\quest\testgym\meethanako.scenesolution,q115_00b_26,5,facial,5,0
+base\quest\testgym\meethanako.scenesolution,q115_00b_26,6,lookAt,6,0
+base\quest\testgym\meethanako.scenesolution,q115_00b_26,7,logic,8,0
 base\quest\testgym\meethanako.scenesolution,q115_00b_no_love_for_corpo_01,1,dialog lines,1,2
 base\quest\testgym\meethanako.scenesolution,q115_00b_no_love_for_corpo_01,2,johnny,2,0
 base\quest\testgym\meethanako.scenesolution,q115_00b_no_love_for_corpo_01,3,idle,3,1
@@ -517,32 +517,6 @@ base\quest\testgym\meethanako.scenesolution,q115_00b_player_sitting_animation,4,
 base\quest\testgym\meethanako.scenesolution,q115_00b_player_sitting_animation,5,facial,5,0
 base\quest\testgym\meethanako.scenesolution,q115_00b_player_sitting_animation,6,lookAt,6,1
 base\quest\testgym\meethanako.scenesolution,q115_00b_player_sitting_animation,7,logic,8,0
-base\quest\testgym\meethanako.scenesolution,TestSectionConOne,1,dialog lines,1,0
-base\quest\testgym\meethanako.scenesolution,TestSectionConOne,2,johnny,2,0
-base\quest\testgym\meethanako.scenesolution,TestSectionConOne,3,idle,3,0
-base\quest\testgym\meethanako.scenesolution,TestSectionConOne,4,animation,4,0
-base\quest\testgym\meethanako.scenesolution,TestSectionConOne,5,facial,5,0
-base\quest\testgym\meethanako.scenesolution,TestSectionConOne,6,lookAt,6,0
-base\quest\testgym\meethanako.scenesolution,TestSectionConOne,7,logic,8,0
-base\quest\testgym\meethanako.scenesolution,TestSectionConOne,8,hanako,2,0
-base\quest\testgym\meethanako.scenesolution,TestSectionConOne,9,idle,3,0
-base\quest\testgym\meethanako.scenesolution,TestSectionConOne,10,animation,4,1
-base\quest\testgym\meethanako.scenesolution,TestSectionConOne,11,facial,5,0
-base\quest\testgym\meethanako.scenesolution,TestSectionConOne,12,lookAt,6,0
-base\quest\testgym\meethanako.scenesolution,TestSectionConOne,13,logic,8,0
-base\quest\testgym\meethanako.scenesolution,TestSectionConTwo,1,dialog lines,1,0
-base\quest\testgym\meethanako.scenesolution,TestSectionConTwo,2,johnny,2,0
-base\quest\testgym\meethanako.scenesolution,TestSectionConTwo,3,idle,3,0
-base\quest\testgym\meethanako.scenesolution,TestSectionConTwo,4,animation,4,0
-base\quest\testgym\meethanako.scenesolution,TestSectionConTwo,5,facial,5,0
-base\quest\testgym\meethanako.scenesolution,TestSectionConTwo,6,lookAt,6,0
-base\quest\testgym\meethanako.scenesolution,TestSectionConTwo,7,logic,8,0
-base\quest\testgym\meethanako.scenesolution,TestSectionConTwo,8,hanako,2,0
-base\quest\testgym\meethanako.scenesolution,TestSectionConTwo,9,idle,3,1
-base\quest\testgym\meethanako.scenesolution,TestSectionConTwo,10,animation,4,0
-base\quest\testgym\meethanako.scenesolution,TestSectionConTwo,11,facial,5,0
-base\quest\testgym\meethanako.scenesolution,TestSectionConTwo,12,lookAt,6,0
-base\quest\testgym\meethanako.scenesolution,TestSectionConTwo,13,logic,8,0
 base\quest\testgym\meethanako.scenesolution,q115_00b_johnny_comment_04,1,dialog lines,1,1
 base\quest\testgym\meethanako.scenesolution,q115_00b_johnny_comment_04,2,johnny,2,0
 base\quest\testgym\meethanako.scenesolution,q115_00b_johnny_comment_04,3,idle,3,1
@@ -772,7 +746,7 @@ base\quest\testgym\meethanako.scenesolution,q115_00b_nervous_johnny,12,lookAt,6,
 base\quest\testgym\meethanako.scenesolution,q115_00b_nervous_johnny,13,logic,8,0
 base\quest\testgym\meethanako.scenesolution,q115_00b_nervous_johnny,14,Player,2,0
 base\quest\testgym\meethanako.scenesolution,q115_00b_nervous_johnny,15,idle,3,1
-base\quest\testgym\meethanako.scenesolution,q115_00b_nervous_johnny,16,animation,4,0
+base\quest\testgym\meethanako.scenesolution,q115_00b_nervous_johnny,16,animation,4,1
 base\quest\testgym\meethanako.scenesolution,q115_00b_nervous_johnny,17,facial,5,1
 base\quest\testgym\meethanako.scenesolution,q115_00b_nervous_johnny,18,lookAt,6,0
 base\quest\testgym\meethanako.scenesolution,q115_00b_nervous_johnny,19,logic,8,1
@@ -875,7 +849,7 @@ base\quest\testgym\meethanako.scenesolution,q115_00b_angry_johnny,2,hanako,2,0
 base\quest\testgym\meethanako.scenesolution,q115_00b_angry_johnny,3,idle,3,0
 base\quest\testgym\meethanako.scenesolution,q115_00b_angry_johnny,4,animation,4,1
 base\quest\testgym\meethanako.scenesolution,q115_00b_angry_johnny,5,facial,5,1
-base\quest\testgym\meethanako.scenesolution,q115_00b_angry_johnny,6,lookAt,6,1
+base\quest\testgym\meethanako.scenesolution,q115_00b_angry_johnny,6,lookAt,6,0
 base\quest\testgym\meethanako.scenesolution,q115_00b_angry_johnny,7,logic,8,0
 base\quest\testgym\meethanako.scenesolution,q115_00b_angry_johnny,8,johnny,2,0
 base\quest\testgym\meethanako.scenesolution,q115_00b_angry_johnny,9,idle,3,1
@@ -995,7 +969,7 @@ base\quest\testgym\meethanako.scenesolution,q115_00b_leave_restaurant,3,idle,3,0
 base\quest\testgym\meethanako.scenesolution,q115_00b_leave_restaurant,4,animation,4,0
 base\quest\testgym\meethanako.scenesolution,q115_00b_leave_restaurant,5,facial,5,0
 base\quest\testgym\meethanako.scenesolution,q115_00b_leave_restaurant,6,lookAt,6,0
-base\quest\testgym\meethanako.scenesolution,q115_00b_leave_restaurant,7,logic,8,0
+base\quest\testgym\meethanako.scenesolution,q115_00b_leave_restaurant,7,logic,8,1
 base\quest\testgym\meethanako.scenesolution,q115_00b_leave_restaurant,8,johnny,2,0
 base\quest\testgym\meethanako.scenesolution,q115_00b_leave_restaurant,9,idle,3,0
 base\quest\testgym\meethanako.scenesolution,q115_00b_leave_restaurant,10,animation,4,0
@@ -1071,7 +1045,7 @@ base\quest\testgym\meethanako.scenesolution,q115_00b_eye_glow,9,idle,3,0
 base\quest\testgym\meethanako.scenesolution,q115_00b_eye_glow,10,animation,4,0
 base\quest\testgym\meethanako.scenesolution,q115_00b_eye_glow,11,facial,5,0
 base\quest\testgym\meethanako.scenesolution,q115_00b_eye_glow,12,lookAt,6,0
-base\quest\testgym\meethanako.scenesolution,q115_00b_eye_glow,13,logic,8,0
+base\quest\testgym\meethanako.scenesolution,q115_00b_eye_glow,13,logic,8,2
 base\quest\testgym\meethanako.scenesolution,q115_00b_guard_01_ending_scenespot,1,dialog lines,1,0
 base\quest\testgym\meethanako.scenesolution,q115_00b_guard_01_ending_scenespot,2,guard_01,2,0
 base\quest\testgym\meethanako.scenesolution,q115_00b_guard_01_ending_scenespot,3,idle,3,2
@@ -1184,7 +1158,7 @@ base\quest\testgym\meethanako.scenesolution,q115_00b_johnny_walking_into_frame,3
 base\quest\testgym\meethanako.scenesolution,q115_00b_johnny_walking_into_frame,4,animation,4,0
 base\quest\testgym\meethanako.scenesolution,q115_00b_johnny_walking_into_frame,5,facial,5,0
 base\quest\testgym\meethanako.scenesolution,q115_00b_johnny_walking_into_frame,6,lookAt,6,0
-base\quest\testgym\meethanako.scenesolution,q115_00b_johnny_walking_into_frame,7,logic,8,0
+base\quest\testgym\meethanako.scenesolution,q115_00b_johnny_walking_into_frame,7,logic,8,2
 base\quest\testgym\meethanako.scenesolution,q115_00b_player_cough,1,dialog lines,1,0
 base\quest\testgym\meethanako.scenesolution,q115_00b_player_cough,2,Player,2,0
 base\quest\testgym\meethanako.scenesolution,q115_00b_player_cough,3,idle,3,0
@@ -1302,13 +1276,19 @@ base\quest\testgym\meethanako.scenesolution,q115_00b_guard_animations,12,lookAt,
 base\quest\testgym\meethanako.scenesolution,q115_00b_guard_animations,13,logic,8,0
 base\quest\testgym\meethanako.scenesolution,q115_00b_29,1,dialog lines,1,0
 base\quest\testgym\meethanako.scenesolution,q115_00b_johnny_hand_appear_elevator,1,dialog lines,1,0
-base\quest\testgym\meethanako.scenesolution,sadasdad,1,dialog lines,1,0
-base\quest\testgym\meethanako.scenesolution,sadasdad,2,guard_01,2,0
-base\quest\testgym\meethanako.scenesolution,sadasdad,3,idle,3,2
-base\quest\testgym\meethanako.scenesolution,sadasdad,4,animation,4,0
-base\quest\testgym\meethanako.scenesolution,sadasdad,5,facial,5,0
-base\quest\testgym\meethanako.scenesolution,sadasdad,6,lookAt,6,0
-base\quest\testgym\meethanako.scenesolution,sadasdad,7,logic,8,0
+base\quest\testgym\meethanako.scenesolution,q115_00b_waitress_bow,1,dialog lines,1,0
+base\quest\testgym\meethanako.scenesolution,q115_00b_waitress_bow,2,waitress,2,0
+base\quest\testgym\meethanako.scenesolution,q115_00b_waitress_bow,3,idle,3,1
+base\quest\testgym\meethanako.scenesolution,q115_00b_waitress_bow,4,animation,4,0
+base\quest\testgym\meethanako.scenesolution,q115_00b_waitress_bow,5,facial,5,0
+base\quest\testgym\meethanako.scenesolution,q115_00b_waitress_bow,6,lookAt,6,4
+base\quest\testgym\meethanako.scenesolution,q115_00b_waitress_bow,7,logic,8,0
+base\quest\testgym\meethanako.scenesolution,q115_00b_waitress_bow,8,bartender,2,0
+base\quest\testgym\meethanako.scenesolution,q115_00b_waitress_bow,9,idle,3,0
+base\quest\testgym\meethanako.scenesolution,q115_00b_waitress_bow,10,animation,4,1
+base\quest\testgym\meethanako.scenesolution,q115_00b_waitress_bow,11,facial,5,0
+base\quest\testgym\meethanako.scenesolution,q115_00b_waitress_bow,12,lookAt,6,2
+base\quest\testgym\meethanako.scenesolution,q115_00b_waitress_bow,13,logic,8,0
 base\quest\testgym\q115_00b_hanako.scenesolution,q115_00b_guards,1,dialog lines,1,1
 base\quest\testgym\q115_00b_hanako.scenesolution,q115_00b_guards,2,guard_01,2,0
 base\quest\testgym\q115_00b_hanako.scenesolution,q115_00b_guards,3,idle,3,0
